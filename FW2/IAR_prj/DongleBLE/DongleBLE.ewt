@@ -1054,7 +1054,7 @@
       <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-      <name>$PROJ_DIR$\..\Boards\pca10056_UsbLeBridg\sdk_config.h</name>
+      <name>$PROJ_DIR$\..\Boards\DongleBLE\sdk_config.h</name>
     </file>
   </group>
   <group>

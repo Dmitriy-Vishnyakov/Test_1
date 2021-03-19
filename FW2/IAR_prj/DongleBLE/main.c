@@ -1,10 +1,13 @@
+
 /* 
-USB - BLE bridge
-examples
+Program for the device "Bluetooth Dongle"
+Serves as a bridge between USB <==> BluetoothLE 
+
+Source examples:
 nRF5_SDK_15.2.0_9412b96\examples\ble_central\ble_app_uart_c
 
+18.03.2021
 */
-
 
 #include <stdio.h>
 #include <stdint.h>
@@ -42,7 +45,7 @@ nRF5_SDK_15.2.0_9412b96\examples\ble_central\ble_app_uart_c
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
-char version_name[] = "UsbBle bridge V1.001";
+char version_name[] = "DongleBLE V1.000";
 
 #define RX_BUFFER_SIZE 256
 
